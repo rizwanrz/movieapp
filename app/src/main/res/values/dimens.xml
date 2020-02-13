@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="movie_title_size">28sp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="zero_height">0dp</dimen>
+    <dimen name="image_layout_height">240dp</dimen>
+    <dimen name="add_favorite_button">14sp</dimen>
+    <dimen name="review_trailer_button">20sp</dimen>
+    <dimen name="detail_text_margin_left">10dp</dimen>
+    <dimen name="detail_text_margin_top">20dp</dimen>
+    <dimen name="detail_text_size">20sp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:id="@+id/video_fragment"
+              android:orientation="vertical"
+          android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_8dp"
+            android:id="@+id/videoReviewsList">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/error_video_review"
+            android:padding="2dp"
+            android:textSize="@dimen/detail_text_size"
+            android:visibility="gone"
+            android:gravity="center_vertical|center_horizontal"/>
+</LinearLayout>

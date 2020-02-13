@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/movie_details"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/image_layout_height"
+                android:id="@+id/movie_image"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="left"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textView_style"
+                    android:layout_weight="5"
+                    android:gravity="bottom"
+                    android:id="@+id/movie_title"
+                    android:hint="@string/movie_title"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/movie_title_size"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+                <TextView
+                    style="@style/textView_style"
+                    android:layout_weight="1"
+                    android:id="@+id/rating"
+                    android:hint="@string/rating_hint" />
+
+                <TextView
+                    style="@style/textView_style"
+                    android:layout_weight="1"
+                    android:id="@+id/movie_year"
+                    android:hint="@string/year_2019"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/zero_height"
+                    android:layout_weight="1"
+                    android:id="@+id/addFav"
+                    android:background="@color/colorPrimaryLight"
+                    android:textColor="@android:color/black"
+                    android:paddingLeft="@dimen/padding_8dp"
+                    android:paddingRight="@dimen/padding_8dp"
+                    android:textSize="@dimen/add_favorite_button"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:textSize="@dimen/detail_text_size"
+            android:textStyle="italic"
+            android:layout_marginLeft="@dimen/detail_text_margin_left"
+            android:layout_marginTop="@dimen/detail_text_margin_top"
+            android:layout_marginBottom="@dimen/detail_text_margin_left"
+            android:textColor="@android:color/white"
+            android:hint="@string/des_hint"/>
+    </LinearLayout>
+</LinearLayout>

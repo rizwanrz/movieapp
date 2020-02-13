@@ -1,0 +1,40 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Movies</string>
+    <string name="myApp">MyApp</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="year_2019">2019</string>
+    <string name="votes">150</string>
+    <string name="rating_hint">8.1/10</string>
+    <string name="favorites_hint">Mark the Favorites</string>
+    <string name="des_hint">Simba idolizes his father, King Mufasa.</string>
+    <string name="top_rated_first">Top Rated First</string>
+    <string name="most_popular_first">Most Popular First</string>
+    <string name="rating">Rating: <xliff:g id="rating" example="6.7">%s</xliff:g></string>
+    <string name="overview">OVERVIEW:\n</string>
+    <string name="releaseDate">Released On: <xliff:g id="release" example="2019-10-12">%s</xliff:g></string>
+    <string name="voteCount">Total Votes: <xliff:g id="votes" example="abc">%s</xliff:g></string>
+    <string name="no_interent">No Internet Connection!!!</string>
+    <string name="no_interent_loading_offline">No Internet Connection. Loading Offline data if any..</string>
+    <string name="error_message_api_call">Unable to reach to Server. Please try again.</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_title">No Title Available!!</string>
+    <string name="no_rating">No Rating Available</string>
+    <string name="no_overview">No Description Available!!</string>
+    <string name="no_date">No Release Date Available!!</string>
+    <string name="no_vote">No Votes given!!</string>
+    <string name="no_data">No Data Received From Seerver</string>
+    <string name="read_review_button_text">Read Reviews</string>
+    <string name="author_label">Written by: </string>
+    <string name="hide_review_button">Hide the Review</string>
+    <string name="hide_video_button">Hide the Trailers</string>
+    <string name="review_url">URL:\t</string>
+    <string name="review_description">Description:\t</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="remove_favorite">Remove from Favorites</string>
+    <string name="show_my_favorites">Show My Favorites</string>
+    <string name="check_the_trailers">Check trailers</string>
+    <string name="movie_image">Movie Image</string>
+    <string name="no_trailer">No Trailers Available fir this movie!!!</string>
+    <string name="no_review">No Reviews Available for this movie!!!</string>
+    <string name="no_fav_text">There is no favourite!!!</string>
+</resources>
